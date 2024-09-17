@@ -13,6 +13,7 @@
 		C1510B5F2C998F6B00A4B683 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C1510B5E2C998F6B00A4B683 /* Base */; };
 		C1510B612C998F6C00A4B683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1510B602C998F6C00A4B683 /* Assets.xcassets */; };
 		C1510B642C998F6C00A4B683 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C1510B632C998F6C00A4B683 /* Base */; };
+		C1510B6E2C9991C800A4B683 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1510B6D2C9991C800A4B683 /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C1510B602C998F6C00A4B683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1510B632C998F6C00A4B683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1510B652C998F6C00A4B683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1510B6D2C9991C800A4B683 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C1510B562C998F6B00A4B683 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				C1510B6F2C9992BB00A4B683 /* Resources */,
 				C1510B572C998F6B00A4B683 /* AppDelegate.swift */,
 				C1510B592C998F6B00A4B683 /* SceneDelegate.swift */,
 				C1510B5B2C998F6B00A4B683 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				C1510B652C998F6C00A4B683 /* Info.plist */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		C1510B6F2C9992BB00A4B683 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1510B6D2C9991C800A4B683 /* test.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				C1510B612C998F6C00A4B683 /* Assets.xcassets in Resources */,
 				C1510B642C998F6C00A4B683 /* Base in Resources */,
 				C1510B5F2C998F6B00A4B683 /* Base in Resources */,
+				C1510B6E2C9991C800A4B683 /* test.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
